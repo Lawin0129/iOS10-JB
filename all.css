@@ -27,7 +27,7 @@ body{
     background-color: #333;
 }
 body.wait{
-    background:#666
+    background:#333
 }
 header{
     background:linear-gradient(to bottom,rgba(105,104,104,0.6),rgba(35,35,35,0.6) 50%,rgba(0,0,0,0.6) 50%,rgba(0,0,0,0.6));
