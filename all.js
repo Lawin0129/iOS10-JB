@@ -236,8 +236,6 @@ function str2ab(a) {
 });
 window.addEventListener("load", function() {
     var a = function() {
-        var a = document.getElementById("logo");
-        a.parentNode.removeChild(a);
         document.body.className = "wait";
         document.getElementById("notice").textContent = "Running exploit...";
         window.setTimeout(function() {
