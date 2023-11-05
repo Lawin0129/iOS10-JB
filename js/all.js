@@ -217,12 +217,12 @@ function str2ab(a) {
 }, str2ab(window.location.hash)).then(function(a) {
     if ("9e04130fa02fc3c416f28ba556f0165da4d93054" != hexlify(new Uint8Array(a))) throw null;
 }).catch(function() {
-    document.title = "Incompatible Spyware";
+    document.title = "Incompatible";
     for (var a = document.body; a.firstChild;) a.removeChild(a.firstChild);
     var d = document.createElement("div");
     d.className = "center";
     d.appendChild(document.createElement("h1")).textContent = "Hello from the NSA!";
-    d.appendChild(document.createElement("h2")).textContent = "Unfortunately this spyware is only compatible with iOS 10. You're not on that version, so don't try it. At all. It will break something. Seriously. Forget we said anything.";
+    d.appendChild(document.createElement("h2")).textContent = "Unfortunately this exploit is only compatible with iOS 10. You're not on that version, so don't try it. At all. It will break something. Seriously. Forget we said anything.";
     a.appendChild(d);
     a.className = "incompatible";
     window.ontouchmove = void 0;
