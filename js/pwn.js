@@ -250,6 +250,7 @@ function go() {
                 if (req.responseType != "arraybuffer") throw "y u no blob";
                 var arrayBuf = new Uint8Array(req.response);
                 var header = b2u32(arrayBuf.slice(0, 4));
+                console.log(header);
                 if (header != 4277009103) {
                     fail("header is invalid: " + hexit(header) + ", should be 0xfeedfacf\nwtf is your payload??");
                     return
