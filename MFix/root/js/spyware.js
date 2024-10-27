@@ -409,7 +409,12 @@
         }
         delete opcodes['altdispatch'];
         delete opcodes['altstackloader'];
-        var k = Object.values(libs).reduce(function(p,c){ c.forEach(function(e){ p.push(e) });return p; }, []);
+
+        var vals = Object.keys(libs).map(function(key) {
+            return libs[key];
+        });
+
+        var k = vals.reduce(function(p,c){ c.forEach(function(e){ p.push(e) });return p; }, []);
         for(var i = 0; i < k.length; ++i)
         {
             var s = k[i];
