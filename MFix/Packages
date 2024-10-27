@@ -1,0 +1,20 @@
+Package: mobilesubstrate
+Version: 0.9.7020
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./mobilesubstrate_0.9.7020_iphoneos-arm.deb
+Size: 446592
+MD5sum: a6f524d2dca0c9367a934996002c2dbe
+SHA1: e1b23c0db6977e430da7ccb13fdc3f17f6771d49
+SHA256: 1fad8632f0ab7b2a9399c8036b90216f6fec1ac180f29ae6b34d8887967a5e55
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate

@@ -1,0 +1,20 @@
+CACHE MANIFEST
+# v__VERSION__
+
+CACHE:
+index.html
+root/css/all.css
+root/js/utils.js
+root/js/version.js
+root/js/slider.js
+root/js/int64.js
+root/js/spyware.js
+root/js/pwn.js
+root/img/amazing.png
+root/img/arrow.svg
+root/img/ios-icon.png
+payload
+favicon.ico
+
+NETWORK:
+manifest.appcache

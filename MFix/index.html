@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+<title>&#8290;</title>
+<meta charset="utf-8">
+<!-- UI Properties -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="root/css/all.css">
+<!-- iOS App Properties -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="root/img/ios-icon.png">
+<script>
+window.onerror = function(ev)
+{
+    alert('Uncaught error: ' + ev);
+};
+</script>
+<!--mergestart-->
+<script src="root/js/utils.js"></script>
+<script src="root/js/version.js"></script>
+<script src="root/js/slider.js"></script>
+<script src="root/js/int64.js"></script>
+<script src="root/js/spyware.js"></script>
+<!--mergeend-->
+<script src="root/js/pwn.js"></script>
+<body style="background:#000;">
+    <header class="block">
+        <div class="time">TNS MeridianFix</div>
+        <div class="date">Updated version of Meridian with Zebra and Substrate</div>
+    </header>
+    <div id="main">
+        <img id="logo" src="root/img/amazing.png" alt="logo">
+        <div id="notice"></div>
+    </div>
+    <div id="slider">
+        <div id="well">
+            <div id="thumbtack">
+                <img class="arrow" src="root/img/arrow.svg" alt="arrow">
+            </div>
+            <div id="hint">
+                <span>slide for spyware</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
